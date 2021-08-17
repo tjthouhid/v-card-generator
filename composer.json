@@ -1,0 +1,47 @@
+{
+  "name": "davaxi/vcalendar",
+  "description": "PHP Class to generate VCalendar (ics) file",
+  "version": "1.0.2",
+  "type": "library",
+  "keywords": [
+    "outlook",
+    "event",
+    "calendar",
+    "event",
+    "ics",
+    "php",
+    "file"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Patiashvili",
+      "email": "stratagem.david@gmail.com",
+      "homepage": "https://www.linkedin.com/in/davaxi",
+      "role": "Developer"
+    },
+    {
+      "name": "Francesco Lovecchio",
+      "email": "francescolovecchio97@gmail.com",
+      "homepage": "https://www.linkedin.com/in/francescolovecchio/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/davaxi/VCalendar/issues",
+    "source": "https://github.com/davaxi/VCalendar/releases"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "php": ">=5.4.0",
+    "codeclimate/php-test-reporter": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Davaxi\\": "src/"
+    }
+  }
+}
